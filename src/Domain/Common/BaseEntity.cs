@@ -2,6 +2,7 @@
 
 namespace CleanArchitecture.Domain.Common;
 
+// Domain
 public abstract class BaseEntity
 {
     public int Id { get; set; }
@@ -26,3 +27,4 @@ public abstract class BaseEntity
         _domainEvents.Clear();
     }
 }
+
